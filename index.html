@@ -1,0 +1,208 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#101014">
+  <meta name="description" content="MaZAd is an independent game studio creating unique gaming experiences.">
+  <title>MaZAd — Games Worth Playing</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <div class="background-glow glow-one"></div>
+  <div class="background-glow glow-two"></div>
+
+  <header class="navbar">
+    <a href="#home" class="logo" aria-label="MaZAd home">
+      MaZAd<span>.</span>
+    </a>
+
+    <button class="menu-toggle" aria-label="Open navigation menu"
+      aria-expanded="false" aria-controls="navigation">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="nav-links" id="navigation">
+      <a href="#home">Home</a>
+      <a href="#games">Games</a>
+      <a href="#about">About</a>
+      <a href="#community">Community</a>
+    </nav>
+
+    <a href="#games" class="nav-cta">Explore Games <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content reveal">
+        <div class="eyebrow">
+          <span class="status-dot"></span>
+          INDEPENDENT GAME STUDIO
+        </div>
+
+        <h1>We create games<br>
+          <span class="gradient-text">worth playing.</span>
+        </h1>
+
+        <p class="hero-description">
+          Bold ideas. Unique experiences. Games built to make every
+          moment memorable.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#games" class="button button-primary">
+            Explore Our Games <span>→</span>
+          </a>
+          <a href="#about" class="button button-secondary">
+            Meet MaZAd
+          </a>
+        </div>
+
+        <div class="hero-note">
+          <span class="note-line"></span>
+          CREATIVITY WITHOUT LIMITS
+        </div>
+      </div>
+
+      <div class="hero-art reveal" aria-label="Abstract purple artwork">
+        <div class="orbit orbit-outer"></div>
+        <div class="orbit orbit-inner"></div>
+        <div class="art-glow"></div>
+        <div class="art-core">
+          <span>M</span>
+        </div>
+        <div class="floating-chip chip-top">IDEAS → GAMES</div>
+        <div class="floating-chip chip-bottom">BUILT DIFFERENT.</div>
+        <div class="art-spark spark-one">✦</div>
+        <div class="art-spark spark-two">✧</div>
+      </div>
+
+      <a href="#games" class="scroll-cue">
+        <span class="scroll-line"></span>
+        SCROLL TO EXPLORE
+      </a>
+    </section>
+
+    <section class="games-section section-padding" id="games">
+      <div class="section-heading reveal">
+        <div>
+          <div class="eyebrow">WHAT WE'RE CREATING</div>
+          <h2>Our <span class="gradient-text">Games.</span></h2>
+        </div>
+        <p>Every great game starts with an idea.<br>
+          Here's where ours come to life.</p>
+      </div>
+
+      <div class="games-grid">
+        <article class="game-card game-featured reveal">
+          <div class="game-art game-art-purple">
+            <div class="game-art-label">FEATURED PROJECT</div>
+            <div class="game-symbol">✳</div>
+            <div class="game-art-bottom">
+              <span>01 / ORIGINAL IP</span>
+              <span>✦</span>
+            </div>
+          </div>
+          <div class="game-info">
+            <div>
+              <h3>Coming Soon</h3>
+              <p>A new experience is in the works.</p>
+            </div>
+            <span class="game-arrow" aria-hidden="true">↗</span>
+          </div>
+          <div class="game-status"><span></span> IN DEVELOPMENT</div>
+        </article>
+
+        <article class="game-card reveal">
+          <div class="game-art game-art-blue">
+            <div class="game-art-label">NEXT UP</div>
+            <div class="game-symbol">◈</div>
+            <div class="game-art-bottom">
+              <span>02 / NEW EXPERIENCE</span>
+              <span>✦</span>
+            </div>
+          </div>
+          <div class="game-info">
+            <div>
+              <h3>More to Come</h3>
+              <p>We're just getting started.</p>
+            </div>
+            <span class="game-arrow" aria-hidden="true">↗</span>
+          </div>
+          <div class="game-status"><span></span> IN THE WORKS</div>
+        </article>
+      </div>
+
+      <p class="games-footnote reveal">
+        These are placeholders. Our real projects will take center stage soon.
+      </p>
+    </section>
+
+    <section class="about-section section-padding" id="about">
+      <div class="about-visual reveal">
+        <div class="about-visual-inner">
+          <div class="about-monogram">M<span>.</span></div>
+          <div class="about-caption">INDEPENDENT BY DESIGN</div>
+          <div class="about-decoration decoration-one"></div>
+          <div class="about-decoration decoration-two"></div>
+        </div>
+      </div>
+
+      <div class="about-content reveal">
+        <div class="eyebrow">A LITTLE ABOUT US</div>
+        <h2>Small studio.<br> <span class="gradient-text">Big ambitions.</span></h2>
+        <p>
+          MaZAd is a game studio driven by creativity, experimentation,
+          and the belief that games should be more than just games.
+        </p>
+        <p>
+          We're here to turn unexpected ideas into memorable experiences,
+          one project at a time.
+        </p>
+        <a href="#community" class="text-link">
+          Get to know us <span>→</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="community-section section-padding" id="community">
+      <div class="community-card reveal">
+        <div class="community-decoration"></div>
+        <div class="eyebrow">BE PART OF THE JOURNEY</div>
+        <h2>Good games are better<br>
+          <span class="gradient-text">together.</span>
+        </h2>
+        <p>Follow our journey and be among the first to hear what's next.</p>
+        <a class="button button-primary" href="#games">
+          Discover Our Projects <span>→</span>
+        </a>
+        <div class="community-foot">MORE UPDATES COMING SOON</div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a href="#home" class="logo">MaZAd<span>.</span></a>
+    <p>Creating games worth playing.</p>
+    <div class="footer-links">
+      <a href="#games">Games</a>
+      <a href="#about">About</a>
+      <a href="#community">Community</a>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="current-year">2026</span> MaZAd Studio</span>
+      <span>MADE WITH PURPOSE <span class="footer-heart">✦</span></span>
+    </div>
+  </footer>
+</body>
+</html>
